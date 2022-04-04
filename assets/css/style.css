@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #7FFFD4;
+}
+
+header {
+    padding: 1rem 10rem;
+}
+
+main {
+    height: calc(100vh - 88px - 51.5px);
+}
+
+.grid {
+    margin: auto;
+    width: 600px;
+    height: 600px;
+    border: 2px solid black;
+}
+
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+footer {
+    font-size: 13px;
+    padding: 1rem 10rem;
+}
