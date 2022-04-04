@@ -14,7 +14,7 @@ header {
 }
 
 main {
-    height: calc(100vh - 113px - 51.5px);
+    min-height: calc(100vh - 113px - 51.5px);
 }
 
 .grid {
